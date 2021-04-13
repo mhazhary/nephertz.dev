@@ -23,7 +23,7 @@
 	"forwardPorts": [8000,9000],
 
 	// Use 'postCreateCommand' to run commands after the container is created.
-	"postCreateCommand": "npm install -g gatsby gatsby-cli react react-dom && npm install",
+	//"postCreateCommand": "npm install",
 
 	// Comment out connect as root instead. More info: https://aka.ms/vscode-remote/containers/non-root.
 	"remoteUser": "node"
